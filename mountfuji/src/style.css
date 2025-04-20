@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 0;
+    background-color: pink;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.place{
+    display: flex;
+    border: 1px solid grey;
+}
+
+.image-src{
+    margin: 10px;
+    height: 300px;
+    width: 1300px;
+
+   
+}
+
+.image-src > img{
+  height: 100%;
+  width: 100%;
+    
+}
+
+
+
+
+img{
+ 
+    
+}
