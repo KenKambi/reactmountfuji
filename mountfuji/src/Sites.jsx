@@ -1,16 +1,18 @@
 
+import MtFuji from "/src/assets/mountfuji.webp"
 
+export default function Sites (props){
 
-export default function Sites (){
+    console.log(props);
 
     return(
         <main>
             <section className="place">
                 <div className="image-src">
-                <img src="/src/assets/mountfuji.webp" alt="Mount Fuji" />
+                <img src={MtFuji} alt="Mount Fuji" />
                 </div>
                 <div className="details">
-                    <span>Japan</span>
+                    <span>{props.destination.location}</span>
                     <a href=""> View on Google Maps</a>
                     
                     <h1>Mount Fuji</h1>

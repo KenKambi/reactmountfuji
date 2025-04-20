@@ -1,4 +1,4 @@
-export default destinations = [
+export default [
     {
         name: "Mount Fuji",
         location: "Japan",
