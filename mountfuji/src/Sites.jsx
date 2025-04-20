@@ -9,7 +9,7 @@ export default function Sites (){
                 <div className="image-src">
                 <img src="/src/assets/mountfuji.webp" alt="Mount Fuji" />
                 </div>
-                <div>
+                <div className="details">
                     <span>Japan</span>
                     <a href=""> View on Google Maps</a>
                     
