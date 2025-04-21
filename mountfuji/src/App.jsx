@@ -5,7 +5,7 @@ import destinations from "./data.js"
 function App() {
 
   const data = destinations.map(function (destination){
-    return <Sites destination={destination}/>
+    return <Sites key={destination.name} destination={destination}/>
   })
   
 
