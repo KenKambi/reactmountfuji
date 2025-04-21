@@ -9,24 +9,32 @@ export default function Sites (props){
         <main>
             <section className="place">
                 <div className="image-src">
-                <img src={MtFuji} alt="Mount Fuji" />
+                <img src={props.destination.image} alt="Mount Fuji" />
                 </div>
                 <div className="details">
                     <span>{props.destination.location}</span>
                     <a href=""> View on Google Maps</a>
                     
-                    <h1>Mount Fuji</h1>
+                    <h1>{props.destination.name}</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nihil eius commodi autem delectus. Corporis, vel impedit odit, nam voluptates dolore deserunt, porro aliquam atque beatae itaque culpa! Architecto, sequi.
+                        {props.destination.description}
                     </p>
-                    <h4>
-                        Best time to visit is ...
-                    </h4>
+                    <title></title>
                     <p>
-                        top activitie to indulge in...
+                        <b>Best Time to Visit :</b>
+                        {props.destination.bestTimeToVisit}
                     </p>
+                    
                     <p>
-                        travel tips...
+                        <b>Top Activities include:</b> 
+                        <i>   
+                        {props.destination.topActivities}
+                        </i>
+                    </p>
+                   
+                    <p>
+                        <b>Travel Tips:</b>
+                        {props.destination.travelTip}
                     </p>
                 </div>
             </section>

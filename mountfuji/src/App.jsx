@@ -1,6 +1,5 @@
 import Navbar from "./Navbar"
 import Sites from "./Sites"
-
 import destinations from "./data.js"
 
 function App() {
