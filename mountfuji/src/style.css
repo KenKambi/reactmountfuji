@@ -1,11 +1,33 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
 }
 
 header{
+    height: 60px;
     margin: 0;
-    background-color: pink;
+    background-color: rgb(231, 173, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.logo:hover{
+    animation: rotate infinite;
+    cursor: pointer;
+
 }
 
 nav{
@@ -25,9 +47,7 @@ nav{
 .image-src{
     margin: 10px;
     height: 400px;
-    width: 1800px;
-    overflow: hidden; /* hides overflow if the image is bigger */
- 
+    width: 1800px; 
 }
 
 .image-src > img{

@@ -13,7 +13,7 @@ export default function Sites (props){
                 </div>
                 <div className="details">
                     <span>{props.destination.location}</span>
-                    <a href=""> View on Google Maps</a>
+                    <a href={props.destination.mapUrl} target="_blank"> View on Google Maps</a>
                     
                     <h1>{props.destination.name}</h1>
                     <p>
