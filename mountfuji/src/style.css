@@ -14,6 +14,11 @@ header{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.logo{
+    animation: rotate infinite 20s linear;
+    cursor: pointer;
+
+}
 
 
 @keyframes rotate {
@@ -24,11 +29,6 @@ header{
     to{
         transform: rotate(360deg);
     }
-}
-.logo:hover{
-    animation: rotate infinite;
-    cursor: pointer;
-
 }
 
 nav{
